@@ -1,0 +1,115 @@
+/* style of div tag*/
+div{
+	
+	width: 520px;
+	background-color: #A9A9A9;
+	margin-left: 10px;
+	
+}
+
+/* special style of last three div tag*/
+.fifth{
+	padding-left: 10px;
+	margin-left: 0px;
+	width:388px;
+	float: left;
+}
+
+.last{
+padding-left: 10px;
+margin-left: 0px;
+	width:388px;
+	float: left;
+	padding-bottom: 10px;
+}
+.equal{
+	width:120px;
+	height: 140px;
+	overflow: hidden;
+	padding-right: 12px;
+	padding-bottom: 10px;
+}
+/* special style of whole div tag*/
+#calculator{
+	padding-top: 30px;
+	width: 530px;
+}
+
+/* special style of result div tag*/
+.num{
+	display: inline-block;
+	border-style: ridge;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: right;
+	font-family: sans-serif;
+	line-height: 30px;
+	height: 70px;
+	background-color:#FFFACD; 
+	width: 505px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#number{
+	float: right;
+	width: 300px;
+	background-color:#FFFACD; 
+	font-size: 30px;
+}
+#operend{
+	margin-left: 290px;
+	width: 50px;
+	margin-top: 35px;
+	height: 20px;
+	float: left;
+	background-color:#FFFACD; 
+}
+
+
+/**/
+
+/* style of general input tag*/
+input{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 15px;
+	width: 115px;
+	height: 60px;
+	background-color: #D3D3D3;
+	font-size: 40px;
+	margin: 5px 5px 5px 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+/* special style of "=" button tag*/
+.equal input{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 15px;
+	width: 115px;
+	height: 130px;
+	background-color: #D3D3D3;
+	font-size: 40px;
+		
+}
+input:hover{
+	background-color: yellow;
+}
+
+input:active{
+	background-color: blue;
+}
+/* special style of "0" button tag*/
+#n0{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 15px;
+	margin: 5px 5px 5px 5px;
+	width: 245px;
+	height: 60px;
+	background-color: #D3D3D3;
+	font-size: 40px;
+
+}
+
+#e{
+	padding-top: 80px;
+}
